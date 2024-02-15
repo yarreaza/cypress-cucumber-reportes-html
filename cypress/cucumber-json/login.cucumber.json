@@ -22,7 +22,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 2804000000
+              "duration": 4163000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "un usuario introduce un username válido, un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 3540000000
+              "duration": 3560000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Valida que efectivamente la URL es la del dashboard una vez inicia sesión correctamente",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 26000000
             }
           }
         ]
@@ -62,17 +62,16 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 769000000
+              "duration": 748000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Login",
+            "name": "un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Loginn",
             "result": {
-              "status": "passed",
-              "duration": 2363000000
+              "status": "undefined"
             }
           },
           {
@@ -81,8 +80,7 @@
             "line": 12,
             "name": "muestra un mensaje de error, usuario y contraseña inválida",
             "result": {
-              "status": "passed",
-              "duration": 319000000
+              "status": "skipped"
             }
           }
         ]
@@ -102,7 +100,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 617000000
+              "duration": 855000000
             }
           },
           {
@@ -112,7 +110,7 @@
             "name": "un usuario hace click en el botón Login con los campos username y password vacío",
             "result": {
               "status": "passed",
-              "duration": 517000000
+              "duration": 657000000
             }
           },
           {
@@ -122,7 +120,7 @@
             "name": "muestra un mensaje de error, usuario y contraseña vacía",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 44000000
             }
           }
         ]
@@ -142,7 +140,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 660000000
+              "duration": 648000000
             }
           },
           {
@@ -152,7 +150,7 @@
             "name": "un usuario introduce un username válido, el campo password lo deja vacío y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1503000000
+              "duration": 1428000000
             }
           },
           {
@@ -162,7 +160,7 @@
             "name": "muestra un mensaje de error, contraseña vacía",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 18000000
             }
           }
         ]
@@ -182,7 +180,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 673000000
+              "duration": 941000000
             }
           },
           {
@@ -192,7 +190,7 @@
             "name": "un usuario deja el campo username vacío, introducce un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1495000000
+              "duration": 1561000000
             }
           },
           {
@@ -202,7 +200,7 @@
             "name": "muestra mensaje de error, usuario vacío",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 14000000
             }
           }
         ]
@@ -222,7 +220,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 624000000
+              "duration": 583000000
             }
           },
           {
@@ -232,7 +230,7 @@
             "name": "un usuario introduce un username inválido, introducce un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 2199000000
+              "duration": 1999000000
             }
           },
           {
@@ -242,7 +240,7 @@
             "name": "muestra un mensaje de error, usuario inválido",
             "result": {
               "status": "passed",
-              "duration": 354000000
+              "duration": 313000000
             }
           }
         ]
@@ -262,7 +260,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 654000000
+              "duration": 540000000
             }
           },
           {
@@ -272,7 +270,7 @@
             "name": "un usuario introduce un username válido, introducce un password inválido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 2207000000
+              "duration": 2098000000
             }
           },
           {
@@ -282,7 +280,7 @@
             "name": "muestra mensaje de error, contraseña inválida",
             "result": {
               "status": "passed",
-              "duration": 296000000
+              "duration": 330000000
             }
           }
         ]
