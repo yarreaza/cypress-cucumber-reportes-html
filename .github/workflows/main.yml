@@ -27,10 +27,10 @@ jobs:
       - name: Generate HTML report
         run: |
           npm install multiple-cucumber-html-reporter --save-dev
-          node cucumber-html-report.js --report-dir ./cypress/reports/cucumber/index.html
+          node cucumber-html-report.js --report-dir cypress/reports/cucumber/index.html
           
       - name: Publish reports as artifacts
         uses: actions/upload-artifact@v2
         with:
           name: cypress-reports
-          path: ./cypress/reports/cucumber/index.html
+          path: cypress/reports/cucumber/index.html
