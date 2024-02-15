@@ -8,7 +8,7 @@ Scenario: TC-1. Login válido
     Then Valida que efectivamente la URL es la del dashboard una vez inicia sesión correctamente
 
 Scenario: TC-2. Login inválido: usuario y contraseña inválida        
-    When un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Loginn
+    When un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Login
     Then muestra un mensaje de error, usuario y contraseña inválida
 
 Scenario: TC-3. Login inválido: usuario y contraseña vacía
