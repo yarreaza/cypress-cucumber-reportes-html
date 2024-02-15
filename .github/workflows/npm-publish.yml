@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npm cypress run
+        run: npx cypress run
 
       - name: Generate HTML report
         run: |
