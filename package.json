@@ -4,7 +4,8 @@
   "description": "Cypress + Cucumber + Reportes HTML",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "report": "node cucumber-html-report.js"
   },
   "repository": {
     "type": "git",
